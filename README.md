@@ -22,7 +22,7 @@ interact with a database effectively.
    - create virtual environment if needed (python -m venv venv)
    - pip install -r requirements.txt  
    - python manage.py runserver
-2.API ENDPOINT:http://127.0.0.1:8000/api/file-upload/
+2. API ENDPOINT:http://127.0.0.1:8000/api/file-upload/
     - {
     "file":""}
   provide a csv file 
