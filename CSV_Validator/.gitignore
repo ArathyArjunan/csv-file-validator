@@ -1,0 +1,28 @@
+
+# Environments
+.env
+.venv
+.env/
+venv/
+.idea/
+.env/
+env.bak/
+venv.bak/
+env/
+
+
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+
+#status
+*.json
+
+
+# Ignore Django migration files
+*/migrations/*.py
+!*/migrations/__init__.py
