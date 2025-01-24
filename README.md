@@ -17,13 +17,13 @@ interact with a database effectively.
 
 ### Steps to Install  
 1. Clone the repository:  
-   git clone [repository-link]
-   cd [project-directory]
-   create virtual environment if needed (python -m venv venv)
-   pip install -r requirements.txt  
-   python manage.py runserver
+   - git clone [repository-link]
+   - cd [project-directory]
+   - create virtual environment if needed (python -m venv venv)
+   - pip install -r requirements.txt  
+   - python manage.py runserver
 2.API ENDPOINT:http://127.0.0.1:8000/api/file-upload/
-    {
+    - {
     "file":""}
   provide a csv file 
 
