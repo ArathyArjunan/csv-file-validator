@@ -12,8 +12,8 @@ interact with a database effectively.
 ## Installation  
 
 ### Prerequisites  
-- Python 3.x  
-- Django >= x.x.x  
+- Python 3 
+- Django 5.1.5
 
 ### Steps to Install  
 1. Clone the repository:  
