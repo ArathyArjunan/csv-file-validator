@@ -24,8 +24,10 @@ interact with a database effectively.
    - python manage.py runserver
 3. Create .env file
 4. copy content of .env.sample and replace secret key value
-2. API ENDPOINT:http://127.0.0.1:8000/api/file-upload/
+5. API ENDPOINT:http://127.0.0.1:8000/api/file-upload/
     - {
     "file":""}
-  provide a csv file 
+  provide a csv file
+6. Unit test can be done using
+   - python manage.py test
 
