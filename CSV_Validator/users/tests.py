@@ -76,7 +76,6 @@ class FileUploadViewsetTestCase(TestCase):
         file_content = "This is a plain text file."
         file = self.create_file(file_content, filename="test.pdf", content_type="text/plain")
         response = self.client.post(self.url, {"file": file}, format="multipart")
-
         self.assertIn("Only .csv files are accepted.", response.data["message"])
-        print(response.data)
+        print(response.data) 
 
